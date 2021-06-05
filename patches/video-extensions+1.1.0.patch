@@ -1,0 +1,12 @@
+diff --git a/node_modules/video-extensions/video-extensions.json b/node_modules/video-extensions/video-extensions.json
+index 0ad84d7..a115959 100644
+--- a/node_modules/video-extensions/video-extensions.json
++++ b/node_modules/video-extensions/video-extensions.json
+@@ -8,6 +8,7 @@
+ 	"drc",
+ 	"flv",
+ 	"m2v",
++	"m3u8",
+ 	"m4p",
+ 	"m4v",
+ 	"mkv",
