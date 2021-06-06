@@ -4,7 +4,7 @@ Tiny Vercel serverless function to scrape metadata from a URL.
 
 <br />
 
-Deployed at [url-metadata-scraper.vercel.app](url-metadata-scraper.vercel.app).  
+Deployed at [url-metadata-scraper.vercel.app](https://url-metadata-scraper.vercel.app).  
 Uses the [Metascraper](https://github.com/microlinkhq/metascraper) library.  
 
 ## Setup  
