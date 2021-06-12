@@ -18,8 +18,6 @@ const metascraper = require("metascraper")([
   require("metascraper-title")(),
   require("metascraper-telegram")(),
   require("metascraper-url")(),
-  require("metascraper-logo-favicon")(),
-  require("metascraper-amazon")(),
   require("metascraper-youtube")(),
   require("metascraper-soundcloud")(),
   require("metascraper-video")(),
@@ -39,6 +37,7 @@ export default async function handler(req, res) {
     const { body: html, url } = await got(targetUrl);
     const metadata = await metascraper({ html, url });
     res.setHeader("Cache-Control", "s-maxage=3600");
+    res.setHeader("Access-Control-Allow-Origin", "*");
     res.status(200).json(metadata);
   } catch (err) {
     console.log(err);
