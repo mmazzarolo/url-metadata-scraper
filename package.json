@@ -11,7 +11,6 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
-    "got": "^11.8.2",
     "metascraper": "^5.22.0",
     "metascraper-amazon": "^5.22.0",
     "metascraper-audio": "^5.22.0",
@@ -34,6 +33,7 @@
     "metascraper-video": "^5.22.0",
     "metascraper-youtube": "^5.22.0",
     "nextjs-cors": "^2.1.0",
+    "node-fetch": "2.6.7",
     "patch-package": "^6.4.7"
   },
   "devDependencies": {
