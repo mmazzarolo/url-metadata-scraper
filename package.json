@@ -33,6 +33,7 @@
     "metascraper-url": "^5.22.0",
     "metascraper-video": "^5.22.0",
     "metascraper-youtube": "^5.22.0",
+    "nextjs-cors": "^2.1.0",
     "patch-package": "^6.4.7"
   },
   "devDependencies": {
